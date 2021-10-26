@@ -21,15 +21,17 @@ body {
     right: 0;
     top: 0;
 }
+hr {
+    width: 90%;
+    margin: auto;
+    color: gray;
+}
 
 /* MAIN */
 main {
     height: calc(100vh - 80px);
     width: 100%;
     overflow: hidden;
-
-    /* TEST */
-    background-color: aquamarine;
 }
 /* Navigator */
 .navbar {
@@ -38,9 +40,6 @@ main {
     float: left;
     display: flex;
     flex-direction: column;
-
-    /* TEST */
-    background-color: chocolate;
 }
 /* Logo */
 .logo {
@@ -86,6 +85,7 @@ main {
     background-color: skyblue;
     height: 20px;
 }
+/* Mainwrapper */
 .mainwrapper {
     width: calc(100% - 250px);
     height: 100%;
@@ -94,6 +94,14 @@ main {
 
     /* TEST */
     background-color: darkblue;
+}
+.categories {
+    width: 60%;
+    margin: auto;
+
+    /* TEST */
+    background-color: indianred;
+    height: 40px;
 }
 
 /* FOOTER */

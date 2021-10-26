@@ -12,6 +12,9 @@ body {
     width: 100%;
     height: 100vh;
 }
+li {
+    list-style-type: none;
+}
 /* UPGRADE */
 .upgrade {
     width: calc(100% - 250px);
@@ -25,6 +28,9 @@ hr {
     width: 90%;
     margin: auto;
     color: gray;
+}
+img {
+    width: 100%;
 }
 
 /* MAIN */
@@ -91,6 +97,7 @@ main {
     height: 100%;
     float: left;
     padding-top: 85px;
+    overflow-y: auto;
 
     /* TEST */
     background-color: darkblue;
@@ -98,10 +105,32 @@ main {
 .categories {
     width: 60%;
     margin: auto;
+    text-align: center;
+    line-height: 40px;
 
     /* TEST */
     background-color: indianred;
     height: 40px;
+}
+.categories li {
+    display: inline-block;
+    margin: 0 23px;
+}
+.recently {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.created-for-user {
+    display: flex;
+}
+.song {
+    width: 200px;
+    height: 250px;
+    margin-left: 7px;
+
+    /* TEST */
+    background-color: khaki;
 }
 
 /* FOOTER */

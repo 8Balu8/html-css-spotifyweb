@@ -151,7 +151,7 @@ main {
 .song {
     width: calc(100% / 6);
     height: 100%;
-    margin: 0 5px;
+    margin: 10px 5px;
     text-align: center;
 }
 .textsections {
@@ -169,7 +169,7 @@ footer {
 }
 
 /* MEDIA QUERY */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1100px) {
     .song {
         flex: none;
         width: 22%;
@@ -178,8 +178,16 @@ footer {
         flex-wrap: wrap;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .song {
         width: 40%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .navbar {
+        width: 50px;
+    }
+    .mainwrapper {
+        width: calc(100% - 50px);
     }
 }

@@ -27,6 +27,11 @@ h2, h3 {
 p {
     color: lightgray;
 }
+.navimg {
+    width: 10%;
+    vertical-align: middle;
+    margin-left: 13px;
+}
 
 /* UPGRADE */
 .upgrade {
@@ -64,53 +69,64 @@ main {
     display: flex;
     flex-direction: column;
     color: white;
+    background-color: black;
+}
+.navbar a {
+    color: white;
 }
 /* Logo */
 .logo {
-    width: 100%;
-
-    /* TEST */
-    background-color: darkcyan;
-    height: 40px;
-
+    width: 70%;
+    padding: 10px;
 }
 /* Options Navigator */
 .home {
     width: 100%;
-
-    /* TEST */
-    background-color: darkgoldenrod;
     height: 40px;
 }
 .find {
     width: 100%;
-
-    /* TEST */
-    background-color: darkgray;
     height: 40px;
 }
 .yourlibrary {
     width: 100%;
-
-    /* TEST */
-    background-color: saddlebrown;
     height: 40px;
 }
 .playlist {
     height: calc(100% - 82px);
     overflow-y: auto;
-    
-    /* TEST */
-    background-color: seagreen;
+    line-height: 50px;
+    margin-left: 13px;
 }
 .playlist a {
     color: white;
+}
+.playlist i {
+    font-size: 20px;
+    vertical-align: middle;
+    background-color: #a3a3a3;
+    color: #040404;
+    padding: 5px;
 }
 .install, .user {
 
     /* TEST */
     background-color: skyblue;
-    height: 20px;
+    height: 25px;
+    margin-left: 13px;
+    width: 90%;
+    margin: auto;
+}
+.install {
+    border-bottom: lightgray;
+}
+.install img {
+    width: 8%;
+    vertical-align: middle;
+}
+.user {
+    width:8%;
+    vertical-align: middle;
 }
 /* Mainwrapper */
 .mainwrapper {
@@ -163,9 +179,7 @@ footer {
     height: 80px;
     width: 100%;
     overflow: hidden;
-
-    /* TEST */
-    background-color: cadetblue;
+    background-color: #282828;
 }
 
 /* MEDIA QUERY */

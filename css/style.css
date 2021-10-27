@@ -100,6 +100,7 @@ main {
     color: black;
     padding: 0 6px;
     font-size: 25px;
+    vertical-align: middle;
 }
 .nameplaylist {
     overflow-y: auto;
@@ -168,6 +169,14 @@ main {
     /* TEST */
     background-color: #141922;
 }
+.mainwrapper h3 {
+    font-size: 14px;
+}
+.mainwrapper p {
+    font-size: 11px;
+    color: #5b5b5b;
+    margin-top: 5px;
+}
 .categories {
     width: 60%;
     margin: auto;
@@ -196,7 +205,7 @@ main {
 .song {
     width: calc(100% / 6);
     height: 100%;
-    margin: 10px 5px;
+    margin: 20px 10px;
     text-align: center;
 }
 .textsections {

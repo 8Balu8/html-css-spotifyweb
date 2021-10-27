@@ -168,10 +168,11 @@ footer {
     background-color: cadetblue;
 }
 
+/* MEDIA QUERY */
 @media screen and (max-width: 700px) {
     .song {
         flex: none;
-        width: 25%;
+        width: 22%;
     }
     .recently {
         flex-wrap: wrap;

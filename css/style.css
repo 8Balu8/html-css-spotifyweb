@@ -119,6 +119,9 @@ main {
     padding: 0 10px;
     line-height: 40px;
 }
+.playlist h3 {
+    font-size: 15px;
+}
 .install-user {
     padding: 5px 0;
     font-size: 14px;

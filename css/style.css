@@ -282,8 +282,9 @@ footer {
     display: inline-block;
     margin-bottom: 2px;
 }
-.bar:hover {
+.onbar {
     border: 1px solid springgreen;
+    width: 25%;
 }
 .time {
     color: white;

@@ -225,21 +225,21 @@ footer {
 }
 
 /* MEDIA QUERY */
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 700px) {
     .song {
         flex: none;
-        width: 22%;
+        width: 20%;
     }
     .recently {
         flex-wrap: wrap;
     }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     .song {
         width: 40%;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 560px) {
     .navbar {
         width: 50px;
     }

@@ -259,6 +259,14 @@ footer {
     font-size: smaller;
     color: #808080;
 }
+.btns i {
+    filter: invert(1);
+    margin: 0 15px;
+    vertical-align: middle;
+}
+.fa-play-circle:before {
+    font-size: 25px;
+}
 
 /* MEDIA QUERY */
 @media screen and (max-width: 700px) {

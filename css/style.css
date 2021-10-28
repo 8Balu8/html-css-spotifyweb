@@ -283,8 +283,12 @@ footer {
     margin-bottom: 2px;
 }
 .onbar {
-    border: 1px solid springgreen;
+    border: 1px solid;
+    color: #a3a3a3;
     width: 25%;
+}
+.onbar:hover {
+    color: #9adf2d;
 }
 .time {
     color: white;

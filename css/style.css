@@ -263,7 +263,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    line-height: 40px;
+    line-height: 25px;
 }
 .btns {
     text-align: center;
@@ -277,10 +277,13 @@ footer {
     font-size: 25px;
 }
 .bar {
-    border: 1px solid orange;
-    width: 250px;
+    border: 1px solid #808080;
+    width: 330px;
     display: inline-block;
     margin-bottom: 2px;
+}
+.bar:hover {
+    border: 1px solid springgreen;
 }
 .time {
     color: white;

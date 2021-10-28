@@ -70,6 +70,9 @@ main {
     width: 70%;
     padding: 10px;
 }
+.logo img:last-child {
+    display: none;
+}
 /* Options Navigator */
 .featuresnav {
     padding: 15px 10px;
@@ -245,5 +248,12 @@ footer {
     }
     .mainwrapper {
         width: calc(100% - 50px);
+    }
+    .logo img {
+        display: none;
+    }
+    .logo img:last-child {
+        display: block;
+        width: 210%;
     }
 }

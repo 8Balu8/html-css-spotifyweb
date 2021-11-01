@@ -171,10 +171,8 @@ main {
     color: #6e7075;
     font-size: 12px;
 }
-.categories li:first-child {
-    border-bottom: 2px solid #9adf2d;
-}
 .categories {
+    position: relative;
     width: 60%;
     margin: auto;
     text-align: center;
@@ -182,6 +180,12 @@ main {
 .categories li {
     display: inline-block;
     margin: 0 10px;
+}
+.underline {
+    height: 2px;
+    width: 30px;
+    background-color: springgreen;
+    margin-left: 25px;
 }
 /* Mainwrapper */
 .mainwrapper {
@@ -247,7 +251,7 @@ main {
     height: 100%;
     font-size: 40px;
     background-color: rgba(0, 0, 0, 0.5);
-    /* display: none; */
+    display: none;
 }
 .song-overlay i {
     color: white;
@@ -258,7 +262,7 @@ a:hover {
     color: white;
 }
 .song-overlay:hover {
-    display: block;
+    display: inline;
 }
 
 /* FOOTER */

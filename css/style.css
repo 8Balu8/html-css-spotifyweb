@@ -229,6 +229,11 @@ main {
     text-align: center;
 }
 
+/* Effect Hover */
+a:hover {
+    color: white;
+}
+
 /* FOOTER */
 footer {
     height: 80px;

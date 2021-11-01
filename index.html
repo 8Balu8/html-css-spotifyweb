@@ -240,7 +240,9 @@
         <footer>
             <div class="strumentfooter">
                 <div class="playsong">
-                    <img src="img/sinister.jpeg" alt="Sinister">
+                    <div class="playsong-cover">
+                        <img src="img/sinister.jpeg" alt="Sinister">
+                    </div>
                     <div class="playsongtxt">
                         <h3>Sinister</h3>
                         <p>Brano nome</p>
@@ -252,29 +254,37 @@
                 </div>
                 <div class="playoptions">
                     <div class="btns">
-                        <i class="fas fa-random"></i>
-                        <i class="fas fa-step-backward"></i>
-                        <i class="far fa-play-circle"></i>
-                        <i class="fas fa-step-forward"></i>
-                        <i class="fas fa-redo-alt"></i>
+                        <ul>
+                            <li><i class="fas fa-random"></i></li>
+                            <li><i class="fas fa-step-backward"></i></li>
+                            <li class="playicon"><i class="far fa-play-circle"></i></li>
+                            <li><i class="fas fa-step-forward"></i></li>
+                            <li><i class="fas fa-redo-alt"></i></li>
+                        </ul>
                     </div>
+
                     <div class="timesong">
-                        <span class="time">0:25</span>
+                        <div class="time">0:25</div>
                         <div class="bar">
-                            <div class="onbar"></div>
+                            <div class="onbar">
+                                <div class="cursor"></div>
+                            </div>
                         </div>
-                        <span class="time">4:35</span>
+                        <div class="time">4:35</div>
                     </div>
                 </div>
-                <div class="playoptions">
-                    <div class="btns">
-                        <i class="fas fa-bars"></i>
-                        <i class="fas fa-desktop"></i>
-                        <i class="fas fa-volume-up"></i>
-                        <div class="barsound">
-                            <div class="onbar"></div>
-                        </div>
-                    </div>
+                <div class="strumentsaudio">
+                    <ul>
+                        <li><i class="fas fa-bars"></i></li>
+                        <li><i class="fas fa-desktop"></i></li>
+                        <li class="volume"><i class="fas fa-volume-up"></i>
+                            <div class="bar">
+                                <div class="onbar">
+                                    <div class="cursor"></div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>    
             </div>
         </footer>

@@ -234,22 +234,23 @@ main {
     height: 100%;
     margin-bottom: 5px;
     position: relative;
-} 
+}
+.mostpopular .song-overlay {
+    border-radius: 50%;
+}
 .song-overlay {
     position: absolute;
-    max-width: 250px;
-    min-width: 120px;
-    max-height: 250px;
-    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
     font-size: 40px;
     background-color: rgba(0, 0, 0, 0.5);
     /* display: none; */
 }
 .song-overlay i {
     color: white;
-    position: absolute;
-    top: 30%;
-    right: 32%;
 }
 
 /* Effect Hover */
@@ -270,26 +271,38 @@ footer {
 .strumentfooter {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 .playsong{
     display: flex;
+    width: 250px;
+    height: 100%;
+    padding: 20px;
 }
-.playsong img {
-    width: 50px;
-    height: 50px;
-    margin: 15px 15px;
+.playsong-cover {
+    width: 20%;
+}
+.playsong-cover img {
+    width: 100%;
 }
 .playsongtxt {
+    width: 50%;
+    padding-left: 10px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    font-size: 9px;
+    flex-direction: column;
+}
+.playsongtxt h3 {
+    font-size: 13px;
+    line-height: 10px;
+}
+.playsongtxt p {
+    font-size: 11px;
 }
 .playsongicon {
     filter: invert(1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .playsongicon i {
     margin-left: 20px;
@@ -297,44 +310,81 @@ footer {
     color: #808080;
 }
 .playoptions {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    line-height: 25px;
+    width: 40%;
+    height: 100%;
 }
-.btns {
-    text-align: center;
+.btns ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
 }
 .btns i {
     filter: invert(1);
-    margin: 0 15px;
-    vertical-align: middle;
+    margin: 15px;
+    font-size: 16px;
+}
+.playicon i {
+    width: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+.timesong {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.time {
+    width: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 9px;
+    text-align: center;
+    color: white;
+    font-size: 7px;
 }
 .bar {
-    border: 1px solid #808080;
-    width: 330px;
-    display: inline-block;
-    margin-bottom: 2px;
-}
+    height: 3px;
+    border-radius: 5px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.2);
+}    
 .onbar {
-    border: 1px solid;
-    color: #a3a3a3;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #a3a3a3;
     width: 25%;
 }
 .onbar:hover {
-    color: #9adf2d;
+    background-color: #9adf2d;
 }
-.time {
+.cursor {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 1);
+}
+.strumentsaudio {
+    width: 20%;
+}
+.strumentsaudio ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.strumentsaudio i {
     color: white;
-    font-size: 7px;
-    padding: 0 10px;
 }
-.barsound {
-    border: 1px solid #6e7075;
-    width: 90px;
-    display: inline-block;
-    margin-bottom: 4px;
-    margin-right: 15px;
+.volume {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 

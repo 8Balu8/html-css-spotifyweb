@@ -49,6 +49,9 @@ p {
     margin-right: 20px;
     font-size: 9px;
 }
+.upgrade a:hover {
+    transform: scale(1.1);
+}
 
 /* MAIN */
 main {
@@ -261,7 +264,7 @@ main {
 a:hover {
     color: white;
 }
-.song-overlay:hover {
+.song-overlay:hover::before {
     display: inline;
 }
 

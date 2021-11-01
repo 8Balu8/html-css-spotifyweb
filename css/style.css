@@ -228,10 +228,36 @@ main {
     margin: 20px 10px;
     text-align: center;
 }
+.cover {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+    position: relative;
+} 
+.song-overlay {
+    position: absolute;
+    max-width: 250px;
+    min-width: 120px;
+    max-height: 250px;
+    min-height: 120px;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* display: none; */
+}
+.song-overlay i {
+    color: white;
+    position: absolute;
+    top: 30%;
+    right: 32%;
+}
 
 /* Effect Hover */
 a:hover {
     color: white;
+}
+.song-overlay:hover {
+    display: block;
 }
 
 /* FOOTER */
@@ -283,9 +309,6 @@ footer {
     filter: invert(1);
     margin: 0 15px;
     vertical-align: middle;
-}
-.fa-play-circle:before {
-    font-size: 25px;
 }
 .bar {
     border: 1px solid #808080;

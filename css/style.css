@@ -193,10 +193,10 @@ main {
     background-color: #141922;
 }
 .mainwrapper h3 {
-    font-size: 12px;
+    font-size: 16px;
 }
 .mainwrapper p {
-    font-size: 10px;
+    font-size: 12px;
     color: #6e7075;
     margin-top: 5px;
 }
@@ -206,6 +206,7 @@ main {
 /* Section 1 */
 .recently {
     display: flex;
+    flex-wrap: wrap;
 }
 /* Section 2 */
 .created-for-user {
@@ -221,6 +222,8 @@ main {
 /* Box single song */
 .song {
     width: calc(100% / 6);
+    max-width: 250px;
+    min-width: 120px;
     height: 100%;
     margin: 20px 10px;
     text-align: center;
@@ -312,9 +315,6 @@ footer {
     .song {
         flex: none;
         width: 20%;
-    }
-    .recently {
-        flex-wrap: wrap;
     }
 }
 @media screen and (max-width: 600px) {

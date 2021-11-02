@@ -254,17 +254,17 @@ main {
     height: 100%;
     font-size: 40px;
     background-color: rgba(0, 0, 0, 0.5);
-    display: none;
 }
 .song-overlay i {
     color: white;
+    display: none;
 }
 
 /* Effect Hover */
 a:hover {
     color: white;
 }
-.song-overlay:hover::before {
+.song-overlay:hover i {
     display: inline;
 }
 
